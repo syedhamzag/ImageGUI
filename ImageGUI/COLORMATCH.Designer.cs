@@ -31,8 +31,6 @@ namespace ImageGUI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.lblMsg = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label31 = new System.Windows.Forms.Label();
@@ -94,8 +92,6 @@ namespace ImageGUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.lblMsg);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.label31);
@@ -117,30 +113,6 @@ namespace ImageGUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 782);
             this.panel1.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(874, 401);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 13);
-            this.label3.TabIndex = 17;
-            this.label3.Text = "Set Output Folder";
-            this.label3.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(842, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(38, 23);
-            this.button1.TabIndex = 16;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Visible = false;
             // 
             // lblMsg
             // 
@@ -725,8 +697,6 @@ namespace ImageGUI
         private System.Windows.Forms.Button inputbrowse;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Label lblMsg;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
     }
 }
 
